@@ -1,7 +1,32 @@
-# thebytesmith-website
-This is the home of thebytesmith website, a site where I can document my journey through learning new concepts in case others find that helpful.
+# thebytesmith website
+
+A modern web application built with vanilla HTML, CSS, and JavaScript
+
+## Features
+
+- Modern, responsive design
+- Dark theme with glass morphism effects
+- Built with vanilla HTML, CSS, and JavaScript
+
+
+
+
+## Development
+
+To run locally:
+
+```bash
+# Simple Python server
+python -m http.server 8000
+
+# Or with live-server (npm install -g live-server)
+live-server .
+```
+
+## Deployment
+
+This project is designed to be deployed on Netlify with automatic builds from GitHub.
 
 ## License
 
-**Code** is licensed under the [MIT License](./LICENSE).  
-**Articles** and other written content are © 2025 Josh Parker — All Rights Reserved.
+MIT License - see LICENSE file for details.
