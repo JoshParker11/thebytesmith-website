@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Josh Parker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="logo">Josh Parker</a>
+            <ul class="nav-links">
+                <li><a href="/" class="nav-link">Home</a></li>
+                <li><a href="/projects.html" class="nav-link active">Projects</a></li>
+                <li><a href="/blog.html" class="nav-link">Blog</a></li>
+                <li><a href="/about.html" class="nav-link">About</a></li>
+                <li><a href="/contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Projects Content -->
+    <div class="content">
+        <div class="container">
+            <header class="page-header">
+                <h1 class="page-title">My Projects</h1>
+                <p class="page-subtitle">A showcase of professional and personal work</p>
+            </header>
+
+            <!-- Featured Projects -->
+            <section class="projects-section">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card featured">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                                    <circle cx="8.5" cy="8.5" r="1.5"/>
+                                    <polyline points="21,15 16,10 5,21"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span class="project-status">Active</span>
+                                <span class="project-type">SaaS</span>
+                            </div>
+                            <h3 class="project-title">URL Shortener with Analytics</h3>
+                            <p class="project-description">
+                                A modern URL shortening service with detailed analytics, custom domains, and API access. 
+                                Built as part of my "Road to $1" journey to create my first profitable micro-SaaS.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Next.js</span>
+                                <span class="tech-tag">TypeScript</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">Vercel</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">View Live</a>
+                                <a href="#" class="project-link secondary">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card featured">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="m9 12 2 2 4-4"/>
+                                    <path d="M21 12c-1 0-3-1-3-3s2-3 3-3 3 1 3 3-2 3-3 3"/>
+                                    <path d="M3 12c1 0 3-1 3-3s-2-3-3-3-3 1-3 3 2 3 3 3"/>
+                                    <path d="M12 3c0 1-1 3-3 3s-3-2-3-3 1-3 3-3 3 2 3 3"/>
+                                    <path d="M12 21c0-1 1-3 3-3s3 2 3 3-1 3-3 3-3-2-3-3"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span class="project-status">Completed</span>
+                                <span class="project-type">Tool</span>
+                            </div>
+                            <h3 class="project-title">Distributed Task Queue System</h3>
+                            <p class="project-description">
+                                A fault-tolerant task queue built with Redis and Node.js. Features job retries, 
+                                dead letter queues, and horizontal scaling capabilities for high-throughput applications.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">Redis</span>
+                                <span class="tech-tag">Docker</span>
+                                <span class="tech-tag">Bull</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">GitHub</a>
+                                <a href="#" class="project-link secondary">Documentation</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- All Projects -->
+            <section class="projects-section">
+                <h2 class="section-title">All Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span class="project-status">In Progress</span>
+                                <span class="project-type">AI Tool</span>
+                            </div>
+                            <h3 class="project-title">AI-Powered Code Review Tool</h3>
+                            <p class="project-description">
+                                Experimenting with OpenAI's API to create automated code review suggestions. 
+                                Early results show promise for catching common anti-patterns and style issues.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">OpenAI</span>
+                                <span class="tech-tag">AST</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link secondary">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span class="project-status">Completed</span>
+                                <span class="project-type">Web App</span>
+                            </div>
+                            <h3 class="project-title">Personal Finance Tracker</h3>
+                            <p class="project-description">
+                                A privacy-focused personal finance tracker with budget planning, expense categorization, 
+                                and investment portfolio tracking. Built with a focus on data ownership.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">Chart.js</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">View Live</a>
+                                <a href="#" class="project-link secondary">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span class="project-status">Archived</span>
+                                <span class="project-type">CLI Tool</span>
+                            </div>
+                            <h3 class="project-title">Dev Environment Manager</h3>
+                            <p class="project-description">
+                                A command-line tool for managing development environments across multiple projects. 
+                                Supports Docker, virtual environments, and configuration management.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Go</span>
+                                <span class="tech-tag">Docker</span>
+                                <span class="tech-tag">CLI</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link secondary">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span class="project-status">Completed</span>
+                                <span class="project-type">Open Source</span>
+                            </div>
+                            <h3 class="project-title">React Component Library</h3>
+                            <p class="project-description">
+                                A collection of accessible, customizable React components with TypeScript support. 
+                                Includes comprehensive documentation and Storybook integration.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">TypeScript</span>
+                                <span class="tech-tag">Storybook</span>
+                                <span class="tech-tag">Jest</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">NPM Package</a>
+                                <a href="#" class="project-link secondary">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span class="project-status">Active</span>
+                                <span class="project-type">Side Project</span>
+                            </div>
+                            <h3 class="project-title">IoT Home Dashboard</h3>
+                            <p class="project-description">
+                                A real-time dashboard for monitoring home IoT devices, energy usage, and environmental data. 
+                                Built with Raspberry Pi sensors and WebSocket connections.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Raspberry Pi</span>
+                                <span class="tech-tag">WebSockets</span>
+                                <span class="tech-tag">Vue.js</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link secondary">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Josh Parker. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
